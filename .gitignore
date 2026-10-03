@@ -1,5 +1,15 @@
 # Compiled class file
 *.class
+target/
+reports/
+test-output/
+
+.settings/
+.classpath
+.project
+
+*.class
+*.log
 
 # Log file
 *.log
