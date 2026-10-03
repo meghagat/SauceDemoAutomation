@@ -46,7 +46,7 @@ public class BaseTest {
 			username=prop.getProperty("username");
 			password=prop.getProperty("password");
 			
-			
+			String browser = "firefox";
 			//Decide which browser to launch
 			
 			if(browserName.equalsIgnoreCase("Chrome"))
