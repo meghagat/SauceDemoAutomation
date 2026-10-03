@@ -42,7 +42,7 @@ public class BaseTest {
 			
 			//Read browser
 			
-			String browserName = prop.getProperty("browser");
+			String browserName=	System.getProperty("browser")!=null ? System.getProperty("browser"):prop.getProperty("browser");
 			username=prop.getProperty("username");
 			password=prop.getProperty("password");
 			
