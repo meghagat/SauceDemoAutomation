@@ -17,7 +17,7 @@ public class EndToEndPurchaseTest extends BaseTest {
 	public void completePurchaseTest() {
 
 		// Login
-		ProductsPage productsPage = loginPage.validLogin(username,password);
+		ProductsPage productsPage = loginPage.validLogin("standard_user", "secret_sauce");
 		// Add product to cart
 		productsPage.addToCart(product1);
 		String cartBadge = productsPage.getCartBadge();

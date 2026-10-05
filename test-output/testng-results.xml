@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-23T19:57:54 IST" name="Suite" finished-at="2026-09-23T19:58:10 IST" duration-ms="15996">
+  <suite started-at="2026-10-06T00:03:13 IST" name="Suite" finished-at="2026-10-06T00:03:28 IST" duration-ms="15720">
     <groups>
     </groups>
-    <test started-at="2026-09-23T19:57:54 IST" name="Test" finished-at="2026-09-23T19:58:10 IST" duration-ms="15996">
+    <test started-at="2026-10-06T00:03:13 IST" name="Test" finished-at="2026-10-06T00:03:28 IST" duration-ms="15720">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-09-23T19:58:02 IST" name="initializeDriver" finished-at="2026-09-23T19:58:03 IST" duration-ms="1371" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-10-06T00:03:21 IST" name="initializeDriver" finished-at="2026-10-06T00:03:22 IST" duration-ms="1353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="inValidLoginTest(java.util.HashMap)[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-09-23T19:58:03 IST" name="inValidLoginTest" data-provider="invalidLoginData" finished-at="2026-09-23T19:58:04 IST" duration-ms="335" status="PASS">
+        <test-method signature="inValidLoginTest(java.util.HashMap)[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-10-06T00:03:22 IST" name="inValidLoginTest" data-provider="invalidLoginData" finished-at="2026-10-06T00:03:22 IST" duration-ms="391" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidLoginTest -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-09-23T19:58:04 IST" name="closeDriver" finished-at="2026-09-23T19:58:04 IST" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-10-06T00:03:22 IST" name="closeDriver" finished-at="2026-10-06T00:03:23 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-09-23T19:58:04 IST" name="initializeDriver" finished-at="2026-09-23T19:58:05 IST" duration-ms="1580" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-10-06T00:03:23 IST" name="initializeDriver" finished-at="2026-10-06T00:03:24 IST" duration-ms="1388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="inValidLoginTest(java.util.HashMap)[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-09-23T19:58:05 IST" name="inValidLoginTest" data-provider="invalidLoginData" finished-at="2026-09-23T19:58:06 IST" duration-ms="352" status="PASS">
+        <test-method signature="inValidLoginTest(java.util.HashMap)[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-10-06T00:03:24 IST" name="inValidLoginTest" data-provider="invalidLoginData" finished-at="2026-10-06T00:03:24 IST" duration-ms="330" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidLoginTest -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-09-23T19:58:06 IST" name="closeDriver" finished-at="2026-09-23T19:58:06 IST" duration-ms="281" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-10-06T00:03:24 IST" name="closeDriver" finished-at="2026-10-06T00:03:25 IST" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-09-23T19:58:06 IST" name="initializeDriver" finished-at="2026-09-23T19:58:07 IST" duration-ms="1386" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-10-06T00:03:25 IST" name="initializeDriver" finished-at="2026-10-06T00:03:26 IST" duration-ms="1378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="inValidLoginTest(java.util.HashMap)[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-09-23T19:58:07 IST" name="inValidLoginTest" data-provider="invalidLoginData" finished-at="2026-09-23T19:58:08 IST" duration-ms="368" status="PASS">
+        <test-method signature="inValidLoginTest(java.util.HashMap)[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-10-06T00:03:26 IST" name="inValidLoginTest" data-provider="invalidLoginData" finished-at="2026-10-06T00:03:26 IST" duration-ms="340" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,59 +60,59 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidLoginTest -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-09-23T19:58:08 IST" name="closeDriver" finished-at="2026-09-23T19:58:08 IST" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-10-06T00:03:26 IST" name="closeDriver" finished-at="2026-10-06T00:03:27 IST" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-09-23T19:58:08 IST" name="initializeDriver" finished-at="2026-09-23T19:58:09 IST" duration-ms="1306" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-10-06T00:03:27 IST" name="initializeDriver" finished-at="2026-10-06T00:03:28 IST" duration-ms="1352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="validLoginTest()[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-09-23T19:58:09 IST" name="validLoginTest" finished-at="2026-09-23T19:58:10 IST" duration-ms="379" status="PASS">
+        <test-method signature="validLoginTest()[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-10-06T00:03:28 IST" name="validLoginTest" finished-at="2026-10-06T00:03:28 IST" duration-ms="378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-09-23T19:58:10 IST" name="closeDriver" finished-at="2026-09-23T19:58:10 IST" duration-ms="230" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.LoginTest@74287ea3]" started-at="2026-10-06T00:03:28 IST" name="closeDriver" finished-at="2026-10-06T00:03:28 IST" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- tests.LoginTest -->
       <class name="tests.EndToEndPurchaseTest">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:tests.EndToEndPurchaseTest@4a07d605]" started-at="2026-09-23T19:57:59 IST" name="initializeDriver" finished-at="2026-09-23T19:58:00 IST" duration-ms="1373" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:tests.EndToEndPurchaseTest@4a07d605]" started-at="2026-10-06T00:03:18 IST" name="initializeDriver" finished-at="2026-10-06T00:03:19 IST" duration-ms="1408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="completePurchaseTest()[pri:0, instance:tests.EndToEndPurchaseTest@4a07d605]" started-at="2026-09-23T19:58:00 IST" name="completePurchaseTest" finished-at="2026-09-23T19:58:02 IST" duration-ms="1157" status="PASS">
+        <test-method signature="completePurchaseTest()[pri:0, instance:tests.EndToEndPurchaseTest@4a07d605]" started-at="2026-10-06T00:03:19 IST" name="completePurchaseTest" finished-at="2026-10-06T00:03:20 IST" duration-ms="1124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- completePurchaseTest -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.EndToEndPurchaseTest@4a07d605]" started-at="2026-09-23T19:58:02 IST" name="closeDriver" finished-at="2026-09-23T19:58:02 IST" duration-ms="218" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.EndToEndPurchaseTest@4a07d605]" started-at="2026-10-06T00:03:20 IST" name="closeDriver" finished-at="2026-10-06T00:03:21 IST" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- tests.EndToEndPurchaseTest -->
       <class name="tests.ProductsTest">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:tests.ProductsTest@642a7222]" started-at="2026-09-23T19:57:54 IST" name="initializeDriver" finished-at="2026-09-23T19:57:56 IST" duration-ms="2007" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:tests.ProductsTest@642a7222]" started-at="2026-10-06T00:03:13 IST" name="initializeDriver" finished-at="2026-10-06T00:03:15 IST" duration-ms="2062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="addMultipleProductsTest()[pri:0, instance:tests.ProductsTest@642a7222]" started-at="2026-09-23T19:57:56 IST" name="addMultipleProductsTest" finished-at="2026-09-23T19:57:57 IST" duration-ms="679" status="PASS">
+        <test-method signature="addMultipleProductsTest()[pri:0, instance:tests.ProductsTest@642a7222]" started-at="2026-10-06T00:03:15 IST" name="addMultipleProductsTest" finished-at="2026-10-06T00:03:15 IST" duration-ms="676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMultipleProductsTest -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.ProductsTest@642a7222]" started-at="2026-09-23T19:57:57 IST" name="closeDriver" finished-at="2026-09-23T19:57:57 IST" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.ProductsTest@642a7222]" started-at="2026-10-06T00:03:15 IST" name="closeDriver" finished-at="2026-10-06T00:03:16 IST" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:tests.ProductsTest@642a7222]" started-at="2026-09-23T19:57:57 IST" name="initializeDriver" finished-at="2026-09-23T19:57:58 IST" duration-ms="1315" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:tests.ProductsTest@642a7222]" started-at="2026-10-06T00:03:16 IST" name="initializeDriver" finished-at="2026-10-06T00:03:17 IST" duration-ms="1382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="addSingleProductTest()[pri:0, instance:tests.ProductsTest@642a7222]" started-at="2026-09-23T19:57:58 IST" name="addSingleProductTest" finished-at="2026-09-23T19:57:59 IST" duration-ms="517" status="PASS">
+        <test-method signature="addSingleProductTest()[pri:0, instance:tests.ProductsTest@642a7222]" started-at="2026-10-06T00:03:17 IST" name="addSingleProductTest" finished-at="2026-10-06T00:03:18 IST" duration-ms="518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addSingleProductTest -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.ProductsTest@642a7222]" started-at="2026-09-23T19:57:59 IST" name="closeDriver" finished-at="2026-09-23T19:57:59 IST" duration-ms="204" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.ProductsTest@642a7222]" started-at="2026-10-06T00:03:18 IST" name="closeDriver" finished-at="2026-10-06T00:03:18 IST" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
