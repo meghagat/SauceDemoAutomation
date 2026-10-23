@@ -26,6 +26,9 @@ pipeline {
 
     post {
         always {
+
+            junit 'target/surefire-reports/TEST-*.xml'
+
             publishHTML([
                 reportDir: 'reports',
                 reportFiles: 'index.html',
@@ -34,6 +37,11 @@ pipeline {
                 alwaysLinkToLastBuild: true,
                 allowMissing: false
             ])
+
+            archiveArtifacts(
+                artifacts: 'reports/**',
+                allowEmptyArchive: true
+            )
         }
     }
 }
