@@ -1,6 +1,14 @@
 pipeline {
     agent any
 
+    parameters {
+        choice(
+            name: 'BROWSER',
+            choices: ['chrome', 'firefox', 'edge'],
+            description: 'Choose browser for test execution'
+        )
+    }
+
     stages {
 
         stage('Checkout') {
@@ -11,7 +19,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                bat 'mvn clean test'
+                bat "mvn clean test -Dbrowser=${params.BROWSER}"
             }
         }
     }
